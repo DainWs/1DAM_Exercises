@@ -1,0 +1,94 @@
+JOSE ANTONIO DUARTE PÉREZ
+1.  ls /bin
+2.  ls /tmp
+3.  ls -dr /etc/t 
+4.  ls /dev/tty?????
+5.  ls /dev/tty*[1,2,3,4]
+6.  ls /dev/t*C1
+7.  ls -a /
+8.  ls /etc/[^t]*
+9.  ls -r /usr
+10. cd /tmp && mkdir PRUEBA
+11. pwd
+12. date
+13. cd $HOME
+14. pwd
+15. ls -i %HOME
+16. rm -rf /tmp/PRUEBA/*
+17. cd /tmp/PRUEBA 
+    mkdir -p dir1/dir11 dir2 dir3/dir31/{dir311,dir312}
+18. cp /etc/motd /tmp/PRUEBA/mensaje
+19. echo dir1 dir2 dir3 | xargs -n 1 cp mensaje
+20. tree /tmp/PRUEBA/
+21. cp /etc/rc.d/* /tmp/PRUEBA/dir31/*
+22. cp /bin/?a??? /tmp/PRUEBA/dir3/dir31/dir311/*
+23. cp /home/usuario/* /tmp/PRUEBA/dir1/dir11/usuario/*
+24. mv /tmp/PRUEBA/dir3/dir31/* /tmp/PRUEBA/dir2/dir31/*
+25. ls -R /home
+26. mv /tmp/PRUEBA/dir3/mensaje /tmp/PRUEBA/dir3/.mensaje
+27. rm -rf /tmp/PRUEBA/dir1
+28. cp /dev/t???[a..b] /tmp/PRUEBA/dir31/dir312/*
+29. rm /tmp/PRUEBA/dir31/dir312/???qb
+30. mv /tmp/PRUEBA/dir31/dir312 /tmp/PRUEBA/dir3/dir312
+31. ln -s /tmp/PRUEBA/dir1/ /tmp/PRUEBA/dir3/enlacedir1
+32. cd /tmp/PRUEBA/dir3/ 
+    mkdir enlacedir1/nuevo1
+33. cp /bin/u* tmp/PRUEBA/dir3/enlacedir1/nuevo1/*
+34. ln /tmp/PRUEBA/fich1 /tmp/PRUEBA/dir1/enlace 
+    ln /tmp/PRUEBA/fich1 /tmp/PRUEBA/dir2/enlace
+35. rm /tmp/PRUEBA/fich1 
+    cp /tmp/PRUEBA/dir1/enlace /tmp/PRUEBA/dir3/enlace
+36. ln -s /tmp/PRUEBA/dir2/enlace /tmp/PRUEBA/dir1/enlafich1
+37. cd /tmp/PRUEBA/dir1/ 
+    cp enlafich1/fich1 ../dir311/fich1
+38. cat ../dir311/fich1
+39. rm /tmp/PRUEBA/dir2/fich1
+40. rm -rf /tmp/PRUEBA/*
+41. mkdir /tmp/PRUEBA/{dir2,dir3}
+    ls -l /tmp/PRUEBA
+42. chmod -w /tmp/PRUEBA/dir2
+43. chmod 775 /tmp/PRUEBA/dir2
+44. ls -l /tmp/PRUEBA/dir2
+45. mkdir /tmp/PRUEBA/dir2/dir2l
+46. chmod 755 /tmp/PRUEBA/dir2
+47. touch /tmp/PRUEBA/dir1/{file1,file2,file3} 
+    ls -l dir1
+48. cd /tmp/PRUEBA/dir3/ 
+    ls -lR
+49. ls -l /tmp/PRUEBA/dir3
+50. reboot
+51. mkdir dira dirb dirc dird
+52. ls -l
+53. touch uno
+    chmod 333
+    ls -l 
+    rm uno
+54. chmod -rwx /tmp/PRUEBA/dir2 
+    chmod 777 /tmp/PRUEBA/*
+55. chmod u=rwx,g=,o= carpeta1 
+    chmod u=rwx,g=rx,o= carpeta2 
+    touch carpeta1/{fich1,fich2}
+    chmod = carpeta1/{fich1,fich2}
+    chmod o=rw carpeta1/fich1
+    touch carpeta2/{file1,file2} 
+    chmod = carpeta2/{file1,file2} 
+    chmod u=rw,g=rw carpeta2/file1 
+    chmod u=rw,g=r carpeta2/file2 
+56. su Usuario1
+    cd /home/usuario/carpeta1
+    ls /home/usuario/carpeta1
+    cd /home/usuario/carpeta2
+    ls /home/usuario/carpeta2
+    cat /home/usuario/carpeta2/file1
+    cat /home/usuario/carpeta2/file1
+    echo " " > /home/usuario/carpeta2/file1
+    echo " " > /home/usuario/carpeta2/file2
+57. pwd 
+    mkdir correo fuentes
+58. cd fuentes 
+    mkdir dir1 dir2 dir3
+59. mkdir ../correo/menus
+60. cd $HOME && rm -rf fuentes/*[^1]
+61. ls -l /dev/tty2
+62. ls -l /dev/tt*
+63. ls -R /usr/bin
