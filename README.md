@@ -1,4 +1,1 @@
-# linux
-Ejercicio de Linux
-
-archivos de configuracion y comandos
+# Ejercicios de 1º DAM
